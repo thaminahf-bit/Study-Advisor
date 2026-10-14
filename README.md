@@ -11,7 +11,7 @@ Tech Stack
 
 Getting Started
 
-Prerequisites
+Prerequisites:
 
 - Node.js and npm
 - A Groq API key for live model responses
@@ -35,18 +35,18 @@ Create a ".env.local" file in the project root and add:
 - STUDY_ADVISOR_MOCK_MODE=false
 
 
-Run Locally
+Run Locally: 
 
 npm run dev
 
 Open "http://localhost:3000" (http://localhost:3000).
 
-Run Tests
+Run Tests: 
 
 npx vitest run
 
 
-Catalogue
+Catalogue: 
 
 Programme recommendations are based on the predefined catalogue in "src/data/catalog.json".
 
