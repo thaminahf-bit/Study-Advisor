@@ -21,6 +21,7 @@ Installation
 Clone the repository:
 
 git clone https://github.com/thaminahf-bit/Study-Advisor.git
+
 cd study-advisor
 
 Install dependencies:
@@ -30,6 +31,7 @@ npm install
 Create a ".env.local" file in the project root and add:
 
 GROQ_API_KEY=your_groq_api_key_here
+
 STUDY_ADVISOR_MOCK_MODE=false
 
 
