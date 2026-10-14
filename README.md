@@ -20,7 +20,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/study-advisor.git
+git clone https://github.com/thaminahf-bit/Study-Advisor.git
 cd study-advisor
 
 Install dependencies:
