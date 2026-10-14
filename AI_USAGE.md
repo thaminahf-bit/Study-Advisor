@@ -4,8 +4,7 @@ I used ChatGPT to understand the Vercel AI SDK, explore implementation approache
 
 One AI Mistake I Identified
 
-An AI-generated suggestion proposed a special-case fallback for the Medicine field when no programme matched the student's budget. I recognised that hardcoding one subject would not generalise to other fields. I rejected that field-specific change because the fallback should be handled through reusable catalogue-search logic rather than a one-off condition.
-I also addressed inconsistent model outputs using Zod validation, JSON tool responses, and deterministic fallbacks.
+An AI suggestion was to add a special fallback for Medicine when no programme matched the student's budget. I realized this would only work for Medicine, not other fields, so I decided not to use it. Instead, I kept the fallback logic general so it could work across all study fields. I also addressed inconsistent model outputs using Zod validation, JSON tool responses, and deterministic fallbacks.
 
 My Own Work and Verification
 
