@@ -16,13 +16,13 @@ Prerequisites
 - Node.js and npm
 - A Groq API key for live model responses
 
-Installation
+Installation:
 
 Clone the repository:
 
-git clone https://github.com/thaminahf-bit/Study-Advisor.git
+- git clone https://github.com/thaminahf-bit/Study-Advisor.git
 
-cd study-advisor
+- cd study-advisor
 
 Install dependencies:
 
@@ -30,9 +30,9 @@ npm install
 
 Create a ".env.local" file in the project root and add:
 
-GROQ_API_KEY=your_groq_api_key_here
+- GROQ_API_KEY=your_groq_api_key_here
 
-STUDY_ADVISOR_MOCK_MODE=false
+- STUDY_ADVISOR_MOCK_MODE=false
 
 
 Run Locally
@@ -50,6 +50,3 @@ Catalogue
 
 Programme recommendations are based on the predefined catalogue in "src/data/catalog.json".
 
-Security
-
-API keys must remain in local environment variables and must never be committed to the repository.
